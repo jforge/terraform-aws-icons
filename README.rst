@@ -15,6 +15,15 @@ Usage
     pip install terraform-aws-icons
     terraform graph | terraform-iconify | dot -Tpng > graph.png
 
+    
+To run the above mentioned call successfully with MacOS install the required tools:
+
+::
+
+   brew install graphviz
+   brew install tfenv
+   tfenv install latest
+
 
 Examples
 --------
